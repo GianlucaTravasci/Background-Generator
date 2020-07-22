@@ -1,3 +1,7 @@
+var _ = require('lodash');
+var arrayTest = [1, 2, 3, 4, 5, 6, 7,];
+console.log('answare', _.without(arrayTest, 4))
+
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
